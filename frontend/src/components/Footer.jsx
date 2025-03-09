@@ -18,9 +18,9 @@ const Footer = () => {
         <div>
           <h4>Support</h4>
           <ul>
-            <li>Street No.007 Shahrah-e-Faisal Karachi, Pakistan</li>
-            <li>nichenest@gmail.com</li>
-            <li>+92 3106507521</li>
+            <li>kanpur U.P</li>
+            <li>abc@gmail.com</li>
+            <li>+91 3106507521</li>
           </ul>
         </div>
 
