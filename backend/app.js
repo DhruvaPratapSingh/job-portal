@@ -25,7 +25,11 @@ app.use(
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.get("/", (req, res) => {   
+  res.send("API is running....");
+  console.log("API is running....");
+}
+);
 app.use(
   fileUpload({
     useTempFiles: true,
